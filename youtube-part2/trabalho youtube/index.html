@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Youtube</title>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img class="logo-yt" src="youtubelogo.png" alt="Logo do youtube">
+        </a>
+
+        <form action="" class="barra-pesquisa">
+            <input class="pesquisa" type="search" placeholder="Pesquisar">
+            <button type="submit" class="bt-pesquisa">
+                <img src="" alt="">
+            </button>
+        </form>
+        
+        <div class="icones-menu">
+            <a href="">
+                <img src="cametayt.jpg" alt="Vídeo que foi colocado na plataforma">
+            </a>
+
+            <a href="">
+                <img src="apps.png" alt="apps da plataforma">
+            </a>
+
+            <a href="">
+                <img src="sininho google.png" alt="notificação dos vídeos da plataforma">
+            </a>
+
+            <a href="">
+                <img class="perfil-usuario" src="usuario.jpg" alt="Imagem do perfil do usuário">
+            </a>
+        </div>
+    </header>
+    <div class="categorias">
+        <section class="section-categorias">
+            <button class="categoria-selecionado">Tudo</button>
+            <button class="categoria">Culinária</button>
+            <button class="categoria">Ao vivo</button>
+            <button class="categoria">Jogos</button>
+            <button class="categoria">Música</button>
+            <button class="categoria">Mixes</button>
+            <button class="categoria">FIFA 23</button>
+            <button class="categoria">FIFA 22</button>
+            <button class="categoria">Seleção brasileira</button>
+            <button class="categoria">Podcast</button>
+            <button class="categoria">Futsal</button>
+        </section>
+    </div>
+
+    <div class="videos">
+        <section class="sessoes">
+            <article class="conteudo">
+                <a href="#" class="capa" data-duration="12:24" src="data:image/jpeg;base64,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">
+                </a>
+
+                <div class="sessao_video">
+                    <a href="#">
+                        <img class="icone_do_canal" src="https://pbs.twimg.com/profile_images/506821744368156672/mBj8QZdQ.jpeg" alt="icone do canal">
+                    </a>
+                    <div class="detalhes">
+                        <a href="#">Novo Fifa 23</a>
+                        <a href="#">EA Sports</a>
+
+                        <div class="dados_video">
+                            <span>8M views</span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="conteudo">
+                <a href="#" class="capa" data-duration="12:24" src="https://i.ytimg.com/vi/jzoqj-2bTsU/maxresdefault.jpg">
+                </a>
+
+                <div class="sessao_video">
+                    <a href="#">
+                        <img class="icone_do_canal" src="https://1.bp.blogspot.com/-nI8Q01jsoh4/VviZhUu8gxI/AAAAAAAA8xg/Q7AezwBBErE5k9XfzjF4CsDulqv2KW5Lg/s1600/Desenho%2BPicapau%2BPng%2Be%2BGifs%2B%252814%2529.png" alt="icone do canal">
+                    </a>
+                    <div class="detalhes">
+                        <a href="#">Pica-Pau episódio inédito</a>
+                        <a href="#">Leoncio mil grau</a>
+
+                        <div class="dados_video">
+                            <span>10K views</span>
+                            <span>1 month ago</span>
+                        </div>
+                    </div>
+                </div>               
+            </article>
+
+            <article class="conteudo">
+                <a href="#" class="capa" data-duration="12:24" src="https://tse4.mm.bing.net/th?id=OIP.E6Msyk_dDZT5jwnTeQ10xwHaEK&pid=Api&P=0">
+                </a>
+
+                <div class="sessao_video">
+                    <a href="#">
+                        <img class="icone_do_canal" src="https://theclutch.com.br/wp-content/uploads/2020/07/gaules-blast.jpg" alt="icone do canal">
+                    </a>
+                    <div class="detalhes">
+                        <a href="#">Bora jogar VAVA</a>
+                        <a href="#">Gaules</a>
+
+                        <div class="dados_video">
+                            <span>18M views</span>
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>               
+            </article>
+
+            <article class="conteudo">
+                <a href="#" class="capa" data-duration="12:24" src="https://images.everyeye.it/img-notizie/fortnite-come-mirare-bene-trucchi-prendere-mira-armi-v10-478522.jpg">
+                </a>
+
+                <div class="sessao_video">
+                    <a href="#">
+                        <img class="icone_do_canal" src="https://i0.wp.com/progametalk.com/wp-content/uploads/2019/03/Tfue.jpg?fit=795%2C992&ssl=1" alt="icone do canal">
+                    </a>
+                    <div class="detalhes">
+                        <a href="#">LIVE de fortnite</a>
+                        <a href="#">Tfue</a>
+
+                        <div class="dados_video">
+                            <span>2M views</span>
+                            <span>LIVE</span>
+                        </div>
+                    </div>
+                </div>               
+            </article>
+        </section>
+    </div>
+</body>
+</html>
